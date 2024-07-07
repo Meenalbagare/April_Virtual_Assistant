@@ -25,40 +25,73 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 16),
-                // height: 60,
+                height: 100,
                 child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.end,
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Row(
                       children: [
-                        Padding(
-                          padding: const EdgeInsets.only(top:30.0),
-                          child: SizedBox(
-                            height: 60.0,
-                              child: Image.asset(
-                                'assets/april_perslogo.png',
-                              ),
-                          ),
+                        Image.asset(
+                          'assets/april_perslogo.png',
+                          height: 60,
                         ),
-                        Padding(
-                          padding: const EdgeInsets.only(top:40.0,left:5.0),
-                          child: SizedBox(width: 100.0,
-                              child: const Text(
-                                "APRIL",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.w900,
-                                  fontSize: 30,
-                                  letterSpacing: 2,
-                                ),
-                              )
-                          ),
-                        )
-                      ]
+                        Text("APRIL",
+                        style: TextStyle(
+                          fontWeight: FontWeight.w900,
+                          fontSize: 30,
+                          letterSpacing: 2,
+                        ),),
+                      ],
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 10.0),
+                      child: IconButton(
+                          onPressed: (){},
+                          icon: Icon(Icons.image_search, color: Colors.white)),
                     )
+
                   ],
                 ),
               ),
+              Expanded(child: ListView()),
+              Container(
+                padding: const EdgeInsets.symmetric(vertical: 30,horizontal: 16),
+                child: Row(
+                  children: [
+                    Expanded(child: TextField(
+                      style: TextStyle(color: Colors.black),
+                      cursorColor: Theme.of(context).primaryColor,
+                      decoration: InputDecoration(
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(100)
+                        ),
+                        fillColor: Colors.white,
+                        filled: true,
+                      focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(100),
+                        borderSide: BorderSide(
+
+                            color: Theme.of(context).primaryColor
+                        ),
+                      )),
+
+                    )),
+                    const SizedBox(width: 12),
+                    CircleAvatar(
+                      radius: 32,
+                      backgroundColor: Colors.white,
+                      child: CircleAvatar(
+                        radius: 30,
+                        backgroundColor: Colors.deepPurpleAccent,
+                        child: Center(
+                          child: Icon(Icons.send,color: Colors.white,),
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+              )
             ]
           )
        )
