@@ -1,6 +1,6 @@
 # April
 
-A Virtual Assistant App named April developed using Flutter and Google Gemini.
+A Virtual Assistant App named April developed using Flutter and Google Gemini. As of now, this project performs text generation and is yet to be developed for image generation.
 
 ![image](https://github.com/Meenalbagare/April_Virtual_Assistant/assets/99323366/4440d29c-97e7-4813-ab1e-08e19ce1cdb8)
 <br><br><br><br>
