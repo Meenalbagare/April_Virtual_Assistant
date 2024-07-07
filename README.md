@@ -1,16 +1,12 @@
-# april
+# April
 
-A new Flutter project.
+A Virtual Assistant App named April developed using Flutter and Google Gemini.
 
-## Getting Started
+![image](https://github.com/Meenalbagare/April_Virtual_Assistant/assets/99323366/4440d29c-97e7-4813-ab1e-08e19ce1cdb8)
 
-This project is a starting point for a Flutter application.
+![image](https://github.com/Meenalbagare/April_Virtual_Assistant/assets/99323366/59f111c0-590b-49d5-a748-3adbe6d5628e)
 
-A few resources to get you started if this is your first Flutter project:
+![image](https://github.com/Meenalbagare/April_Virtual_Assistant/assets/99323366/f8bb3191-9b5e-4a9f-9733-acadb4f65b7e)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
